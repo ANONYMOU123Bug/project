@@ -1,0 +1,76 @@
+*{
+    padding: 0ex;
+    margin: 0px;
+    text-transform: capitalize;
+    box-sizing: border-box;
+    font-family: system-ui ;
+    font-weight: 500;
+}
+.body{
+    padding: 30px 0px 30px 0px;
+    display: flex;
+    justify-content: center;
+}
+.border{
+    height: 800px;
+    width: 750px;
+    border: 2px solid black;
+    border-radius: 30px ;
+    display: flex ;
+    flex-direction: column ;
+}
+.heading1{
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    margin: 60px 0px 15px 0px;
+    font-weight: 600;
+}
+.head-para{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px ;
+}
+.main-div{
+    margin: 40px 0px;
+    display: flex;
+    /* flex-direction: column; */
+}
+.first-child{
+    width: 40%;
+    border-right: 2px solid black;
+    text-align: right;
+    padding: 20px 0px;
+    padding-right: 20px;
+}
+.second-child{
+    width: 60%;
+    padding: 20px 0px;
+    padding-left: 20px;
+}
+ul li{
+    line-height: 60px;
+}
+ul{
+    position: relative ;
+    left: -6px;
+    list-style: none;
+    color: rgba(0, 0, 0, 0.445) ;
+}
+.second-child ul{
+    list-style: "⚫ ";
+    color: black ;
+}
+.low{
+    color: rgba(0, 0, 0, 0.445) ;
+}
+button{
+    /* width: 150px; */
+    /* height: 30px; */
+    padding: 10px 20px ;
+    border-radius: 10px;
+    color: azure ;
+    background-color: #000000;
+    align-self: center ;
+}
